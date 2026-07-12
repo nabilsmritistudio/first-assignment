@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.register-btn {
+    padding: 10px 20px;
+}
