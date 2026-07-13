@@ -242,16 +242,16 @@ a {
     box-shadow: 0px 0px 10px #3a4353;
 }
 
-.newsletter-box{
+.newsletter-box {
     text-align: center;
 }
 
-.newsletter-text h2{
+.newsletter-text h2 {
     color: white;
     padding: 10px;
 }
 
-.newsletter-text p{
+.newsletter-text p {
     color: rgb(219, 219, 219);
     padding-top: 5px;
 }
@@ -286,39 +286,45 @@ a {
     font-weight: bold;
 }
 
-.newsletter-note{
+.newsletter-note {
     color: rgb(226, 226, 226);
     font-size: 12px;
 }
 
-footer{
+footer {
     background-color: #151d30;
     box-shadow: 0px -2px 10px #202c47;
     color: white;
     padding: 25px 0px 50px 0px;
 }
 
-.footer-section{
+.footer-section {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 25px 100px;
 }
 
-.footer-links{
+.footer-details img {
+    padding: 0px 0px 10px 0px;
+}
+
+.footer-links {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-.footer-links a{
+.footer-links a {
     color: white;
 }
 
-footer hr{
+footer hr {
     margin: 0px 100px;
 }
-.footer-copyright{
+
+.footer-copyright {
     text-align: center;
     padding-top: 25px;
 }
