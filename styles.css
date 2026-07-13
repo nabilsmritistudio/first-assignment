@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
 }
 
 body {
@@ -68,7 +68,7 @@ a {
 }
 
 .speaker {
-    margin: 20px, auto;
+    margin: 20px auto;
     padding: 100px 150px 20px 150px;
     text-align: center;
 }
@@ -129,7 +129,7 @@ a {
 .payment {
     margin-top: 100px;
     justify-content: center;
-    border: 5px solid white;
+    padding: 0px 100px;
 }
 
 .payment-title {}
@@ -159,13 +159,15 @@ a {
 }
 
 .pricing-normal {
-    border: 1px solid #c2d9ff;
+    flex: 1;
+    background-color: #252c3a;
+    border: 1px solid #3d4555;
     border-radius: 10px;
     padding: 25px;
 }
 
 .plan-name {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: lighter;
     color: #dde8ff;
 }
@@ -185,12 +187,51 @@ a {
     margin: 20px 10px;
 }
 
-.pricing-normal ul {}
+.pricing-normal ul li,
+.pricing-pro ul li {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
 
-.pricing-normal-btn {}
+.pricing-normal-btn {
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    margin: 25px 10px 5px 10px;
+    padding: 10px;
+    background-color: #454f63;
+    border: 1px solid #3B82F6;
+    border-radius: 10px;
+}
+
+.pricing-normal-btn a {
+    color: #ffffff;
+}
 
 .pricing-pro {
-    border: 1px solid #c2d9ff;
+    flex: 1;
+    background-color: #7a7ca8;
+    border: 1px solid #a08bcf;
     border-radius: 10px;
     padding: 25px;
+}
+
+.pricing-pro hr {
+    margin: 20px 10px;
+}
+
+.pricing-pro-btn {
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    margin: 25px 10px 5px 10px;
+    padding: 10px;
+    background-color: #454f63;
+    border: 1px solid #3B82F6;
+    border-radius: 10px;
+}
+
+.pricing-pro-btn a {
+    color: #ffffff;
 }
