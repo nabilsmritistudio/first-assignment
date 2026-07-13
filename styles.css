@@ -1,14 +1,90 @@
 * {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-nav {
+body {
+    background-color: #111827;
+}
+
+header {
+    padding: 10px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(223, 223, 223);
+}
+
+a {
+    text-decoration: none;
 }
 
 .register-btn {
+    color: white;
+    background-color: #3B82F6;
     padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cover-section {
+    background-color: aquamarine;
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.2)), url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-div {
+    text-align: center;
+}
+
+.cover-div h1 {
+    color: #3B82F6;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.cover-div p {
+    color: #F9FAFB;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto 125px;
+}
+
+.speaker {
+    margin: 20px, auto;
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+}
+
+.speaker h2 {
+    color: #f8faff;
+    margin-bottom: 25px;
+}
+
+.speaker article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    text-align: left;
+}
+
+.speaker article div {
+    border: 2px solid #f8faff;
 }
