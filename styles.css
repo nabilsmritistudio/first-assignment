@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #111827;
+    background-color: #0B0F19;
 }
 
 header {
@@ -96,11 +96,11 @@ a {
 
 .speaker-div {
     background-color: rgb(241, 245, 252);
-    border: 2px solid #536592;
+    border: 2px solid #3c4458;
     border-radius: 10px;
     overflow: hidden;
     width: 50%;
-    box-shadow: 2px 2px 2px #394a66;
+    box-shadow: 2px 4px 20px #2f3e66;
 }
 
 
@@ -195,24 +195,22 @@ a {
 }
 
 .pricing-normal-btn {
+    color: #ffffff;
     display: flex;
     justify-content: center;
     font-style: none;
     margin: 25px 10px 5px 10px;
-    padding: 10px;
-    background-color: #454f63;
-    border: 1px solid #3B82F6;
+    padding: 12px;
+    background-color: #252c3a;
+    border: 0.13rem solid #697a9e;
     border-radius: 10px;
-}
-
-.pricing-normal-btn a {
-    color: #ffffff;
+    box-shadow: 1px 1px 10px #404a5f;
 }
 
 .pricing-pro {
     flex: 1;
-    background-color: #7a7ca8;
-    border: 1px solid #a08bcf;
+    background-color: #539ff5;
+    border: 1px solid #73b1f8;
     border-radius: 10px;
     padding: 25px;
 }
@@ -222,16 +220,105 @@ a {
 }
 
 .pricing-pro-btn {
+    color: #ffffff;
     display: flex;
     justify-content: center;
     font-style: none;
     margin: 25px 10px 5px 10px;
-    padding: 10px;
-    background-color: #454f63;
-    border: 1px solid #3B82F6;
+    padding: 12px;
+    background-color: #4480db;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px #6991e9;
 }
 
-.pricing-pro-btn a {
-    color: #ffffff;
+.newsletter {
+    margin: 100px 200px;
+    padding: 50px 0px;
+    background-color: #3a4353;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #4b5464;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #3a4353;
+}
+
+.newsletter-box{
+    text-align: center;
+}
+
+.newsletter-text h2{
+    color: white;
+    padding: 10px;
+}
+
+.newsletter-text p{
+    color: rgb(219, 219, 219);
+    padding-top: 5px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 250px;
+    max-width: 320px;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border: 1px solid #2A3245;
+    background-color: #0B0F19;
+    color: #F9FAFB;
+    font-size: 14px;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 14px 28px;
+    background-color: #4480db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.newsletter-note{
+    color: rgb(226, 226, 226);
+    font-size: 12px;
+}
+
+footer{
+    background-color: #151d30;
+    box-shadow: 0px -2px 10px #202c47;
+    color: white;
+    padding: 25px 0px 50px 0px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-links a{
+    color: white;
+}
+
+footer hr{
+    margin: 0px 100px;
+}
+.footer-copyright{
+    text-align: center;
+    padding-top: 25px;
 }
