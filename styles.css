@@ -69,22 +69,94 @@ a {
 
 .speaker {
     margin: 20px, auto;
-    padding: 20px 60px 20px 60px;
+    padding: 100px 150px 20px 150px;
     text-align: center;
 }
 
 .speaker h2 {
     color: #f8faff;
     margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .speaker article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1.75rem;
     text-align: left;
 }
 
-.speaker article div {
-    border: 2px solid #f8faff;
+.speaker-first-row,
+.speaker-second-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+.speaker-div {
+    background-color: rgb(241, 245, 252);
+    border: 2px solid #536592;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    box-shadow: 2px 2px 2px #394a66;
+}
+
+
+.speaker-div img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-intro {
+    padding: 20px;
+}
+
+.speaker-title {
+    color: #3B82F6;
+}
+
+.speaker h3 {
+    margin: 10px 0px;
+}
+
+.speaker-description {
+    color: #686b70;
+}
+
+.payment {
+    margin-top: 100px;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+.payment-title {}
+
+.payment-title h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-title p {
+    color: rgb(215, 241, 255);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.pricing{
+
+}
+
+.pricing-normal{
+
+}
+
+.pricing-normal-btn{
+    
 }
